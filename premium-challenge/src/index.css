@@ -61,6 +61,24 @@ a {
   padding: 0 1rem;
   color: #cfcfcf;
 }
+.icons::before {
+  content: 'b';
+  color: red;
+  top: 26%;
+  left: 40%;
+  position: absolute;
+  transform: translateX(-50%);
+  font-size: 1.4rem;
+}
+.icons::after {
+  content: 'b';
+  color: red;
+  bottom: 66%;
+  right: 35%;
+  font-size: 1.4rem;
+  position: absolute;
+  transform: translateX(-50%);
+}
 .text-center {
   text-align: center;
 }
@@ -94,15 +112,17 @@ a {
   background: none;
   font-weight: bold;
   font-size: 1.2rem;
-  padding: 0.7rem 2rem;
+  padding: 0.7rem 1rem;
+  margin-left: 1rem;
 }
 .rounded {
   border-radius: 200px;
   background: rgb(197, 197, 197);
   height: 1.3rem;
-  padding: 0.2rem;
+  padding: 0.3rem 0.5rem;
   color: gray;
   width: 1.3rem;
+  margin-right: 0.5rem;
 }
 .carsConatiner {
   padding: 2rem 0;
@@ -113,6 +133,17 @@ a {
 .detailText {
   font-weight: 500;
   padding-left: 0.7rem;
+}
+.more {
+  background: orangered;
+  border: none;
+  color: white;
+  font-size: 1.1rem;
+  padding: 0.5rem;
+  text-align: center;
+  width: 90%;
+  margin: 1rem;
+  font-weight: bold;
 }
 
 .socials {

@@ -5,7 +5,6 @@ import Footer from '../components/Footer';
 import Header from '../components/Header';
 import NavBar from '../components/NavBar';
 import Logo2 from '../assets/logo2.PNG';
-import PercentageCard from '../components/shared/PercentageCard';
 import ModalPercentageCard from '../components/ModalPercentageCard';
 
 const LandingPage = () => {
@@ -38,11 +37,13 @@ const LandingPage = () => {
                 text='CITTA'
                 color='orange'
               />
-              <ModalPercentageCard
-                percentage='33'
-                text='STATARE'
-                color='blue'
-              />
+              <div className='icons'>
+                <ModalPercentageCard
+                  percentage='33'
+                  text='STATARE'
+                  color='blue'
+                />
+              </div>
               <ModalPercentageCard
                 percentage='33'
                 text='AUSTRIDA'

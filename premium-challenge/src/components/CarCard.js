@@ -45,8 +45,8 @@ const CarCard = ({
           {details &&
             details.map((item, i) => (
               <>
-                <div className='flex mt-1'>
-                  <h2 style={{ color }}>
+                <div className='flex mt-1' key={i}>
+                  <h2 style={{ color: item.color }}>
                     {item.number}
                     <span
                       style={{
@@ -55,7 +55,7 @@ const CarCard = ({
                         color: 'gray'
                       }}
                     >
-                      £100km {item.text}
+                      €100km {item.text}
                     </span>
                   </h2>
                   <i
@@ -67,14 +67,14 @@ const CarCard = ({
                 <div
                   className='w-full '
                   style={{
-                    background: 'gray',
+                    background: '#eeee',
                     height: '6px',
                     marginTop: '10px'
                   }}
                 >
                   <div
                     style={{
-                      background: color,
+                      background: item.color,
                       height: '6px',
                       width: item.number
                     }}
