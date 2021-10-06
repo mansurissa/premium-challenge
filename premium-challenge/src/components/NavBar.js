@@ -6,7 +6,7 @@ const NavBar = () => {
       <div>
         <img src={Logo} alt='' />
       </div>
-      <div className='c-gay'>
+      <div className='c-gray'>
         <i class='fa fa-bars'></i>
       </div>
     </div>

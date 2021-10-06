@@ -1,3 +1,4 @@
+import BottomNav from '../components/BottomNav';
 import CarsContainer from '../components/CarsContainer';
 import Footer from '../components/Footer';
 import Header from '../components/Header';
@@ -10,6 +11,7 @@ const LandingPage = () => {
       <Header />
       <CarsContainer />
       <Footer />
+      <BottomNav />
     </div>
   );
 };

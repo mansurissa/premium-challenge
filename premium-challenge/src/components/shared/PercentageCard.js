@@ -1,7 +1,7 @@
 const PercentageCard = ({ percentage, text, color }) => {
   return (
-    <div className='w-full'>
-      <div className='whiteCard'>
+    <div className='w-full '>
+      <div className='whiteCard '>
         <h1 style={{ color }}>
           {percentage}
           <span className='sign'>%</span>
