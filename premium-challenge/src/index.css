@@ -62,8 +62,9 @@ a {
   color: #cfcfcf;
 }
 .icons::before {
-  content: 'b';
-  color: red;
+  font-family: FontAwesome;
+  content: '\f095';
+  color: orangered;
   top: 26%;
   left: 40%;
   position: absolute;
@@ -71,8 +72,9 @@ a {
   font-size: 1.4rem;
 }
 .icons::after {
-  content: 'b';
-  color: red;
+  font-family: FontAwesome;
+  content: '\f095';
+  color: orangered;
   bottom: 66%;
   right: 35%;
   font-size: 1.4rem;

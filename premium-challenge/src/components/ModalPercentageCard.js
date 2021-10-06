@@ -10,7 +10,7 @@ const ModalPercentageCard = ({ percentage, text, color }) => {
           marginBottom: '2rem'
         }}
       ></div>
-      <div className='whiteCard '>
+      <div className='whiteCard'>
         <h1 style={{ color }}>
           {percentage}
           <span className='sign'>%</span>
