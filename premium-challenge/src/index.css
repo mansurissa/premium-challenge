@@ -61,22 +61,26 @@ a {
   padding: 0 1rem;
   color: #cfcfcf;
 }
+.modalCardsContainer {
+  position: relative;
+}
 .icons::before {
   font-family: FontAwesome;
   content: '\f02b';
   color: orangered;
-  top: 26%;
-  left: 36%;
   position: absolute;
-  transform: rotate(223deg);
+  left: 35%;
+  top: 0;
+  transform: rotate(224deg);
   font-size: 1.4rem;
 }
+
 .icons::after {
   font-family: FontAwesome;
   content: '\f02b';
   color: orangered;
-  bottom: 66%;
-  right: 36%;
+  top: 11%;
+  right: 35%;
   font-size: 1.4rem;
   position: absolute;
   transform: rotate(46deg);
@@ -210,6 +214,7 @@ select {
   color: rgb(74, 74, 75);
   text-align: center;
   padding: 1rem;
+  position: relative;
   height: 17rem;
 }
 .whiteCardsContainer {

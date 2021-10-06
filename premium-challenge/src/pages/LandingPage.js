@@ -30,7 +30,7 @@ const LandingPage = () => {
             abitualmente, una volta impostati i valori clicca su
             <span style={{ color: 'black', fontWeight: '500' }}>Ricalcola</span>
           </p>
-          <div className='whiteCardsContainer'>
+          <div className='whiteCardsContainer modalCardsContainer'>
             <div className='flex '>
               <ModalPercentageCard
                 percentage='33'
