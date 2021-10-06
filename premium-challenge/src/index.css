@@ -167,9 +167,34 @@ select {
   border: none;
   border-radius: 200px;
   background: orangered;
-  padding: 1rem 1.1rem;
+  padding: 0.7rem 1rem;
+  font-size: 1.4rem;
   color: white;
   font-weight: bold;
+}
+.modalBody {
+  background: #eeeeee;
+  color: rgb(74, 74, 75);
+  text-align: center;
+  padding: 1rem;
+  height: 17rem;
+}
+.whiteCardsContainer {
+  background: #c8c8c8;
+  padding: 1rem 0;
+  margin: 2rem 0;
+  border-radius: 5px;
+}
+.modalBtn {
+  background: white;
+  font-weight: bold;
+  padding: 0.7rem 0;
+  border-radius: 5px;
+  border: none;
+  color: #c8c8c8;
+  font-size: 1rem;
+  text-align: center;
+  margin: 1rem 0 5rem 0;
 }
 @media screen and (max-width: 480px) {
   .flexDirection {

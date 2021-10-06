@@ -7,7 +7,7 @@ const NavBar = () => {
         <img src={Logo} alt='' />
       </div>
       <div className='c-gray'>
-        <i class='fa fa-bars'></i>
+        <i className='fa fa-bars'></i>
       </div>
     </div>
   );

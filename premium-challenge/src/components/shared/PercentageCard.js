@@ -9,7 +9,7 @@ const PercentageCard = ({ percentage, text, color }) => {
         <p>{text}</p>
       </div>
       <div
-        style={{ height: '5px', width: '100%', backgroundColor: color }}
+        style={{ height: '10px', width: '100%', backgroundColor: color }}
       ></div>
     </div>
   );
