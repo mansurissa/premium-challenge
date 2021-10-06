@@ -1,7 +1,7 @@
 import Logo2 from '../assets/logo2.PNG';
 import PercentageCard from './shared/PercentageCard';
 
-const Header = () => {
+const Header = ({ setModalOpen }) => {
   return (
     <div className='flex flexDirection header' style={{ marginTop: '70px' }}>
       <div className='left'>
@@ -32,7 +32,12 @@ const Header = () => {
           <PercentageCard percentage='33' text='STATARE' color='blue' />
           <PercentageCard percentage='33' text='AUSTRIDA' color='green' />
         </div>
-        <button className='openModal w-full'>Cambia percentuali</button>
+        <button
+          className='openModal w-full'
+          onClick={() => setModalOpen('block')}
+        >
+          Cambia percentuali
+        </button>
       </div>
       <div className='mobOnly w-full flex'>
         <p>

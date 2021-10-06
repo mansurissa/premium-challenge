@@ -152,6 +152,25 @@ select {
 .bottomNav {
   display: none;
 }
+.modal {
+  z-index: 3;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: white;
+  height: 100vh;
+}
+.hidden {
+  display: none;
+}
+.closeModal {
+  border: none;
+  border-radius: 200px;
+  background: orangered;
+  padding: 1rem 1.1rem;
+  color: white;
+  font-weight: bold;
+}
 @media screen and (max-width: 480px) {
   .flexDirection {
     flex-direction: column;
