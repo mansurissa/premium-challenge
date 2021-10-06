@@ -63,23 +63,23 @@ a {
 }
 .icons::before {
   font-family: FontAwesome;
-  content: '\f095';
+  content: '\f02b';
   color: orangered;
   top: 26%;
-  left: 40%;
+  left: 36%;
   position: absolute;
-  transform: translateX(-50%);
+  transform: rotate(223deg);
   font-size: 1.4rem;
 }
 .icons::after {
   font-family: FontAwesome;
-  content: '\f095';
+  content: '\f02b';
   color: orangered;
   bottom: 66%;
-  right: 35%;
+  right: 36%;
   font-size: 1.4rem;
   position: absolute;
-  transform: translateX(-50%);
+  transform: rotate(46deg);
 }
 .text-center {
   text-align: center;
