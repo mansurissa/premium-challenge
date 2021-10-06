@@ -1,6 +1,6 @@
 const ModalPercentageCard = ({ percentage, text, color }) => {
   return (
-    <div className='w-full '>
+    <div className='w-full ' style={{ width: '100%' }}>
       <div
         style={{
           height: '10px',
@@ -11,10 +11,10 @@ const ModalPercentageCard = ({ percentage, text, color }) => {
         }}
       ></div>
       <div className='whiteCard'>
-        <h1 style={{ color }}>
+        <h3 style={{ color }}>
           {percentage}
           <span className='sign'>%</span>
-        </h1>
+        </h3>
         <p>{text}</p>
       </div>
     </div>

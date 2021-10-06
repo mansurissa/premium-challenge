@@ -24,13 +24,13 @@ const Header = ({ setModalOpen }) => {
         </div> */}
       </div>
       <div className='bg-gray300'>
-        <h3 className='text-center'>
-          Costi calcolati su queste percentuali di utilizzo
-        </h3>
+        <p className='text-center c-black' style={{ fontWeight: '600' }}>
+          COSTI CALCOLATI SU QUESTE PERCEN TUALI DI UTILIZZO
+        </p>
         <div className='flex'>
-          <PercentageCard percentage='33' text='CITTA' color='orange' />
-          <PercentageCard percentage='33' text='STATARE' color='blue' />
-          <PercentageCard percentage='33' text='AUSTRIDA' color='green' />
+          <PercentageCard percentage='33' text='CITTA' color='#FFC31F' />
+          <PercentageCard percentage='33' text='STATARE' color='#3E97FF' />
+          <PercentageCard percentage='33' text='AUSTRIDA' color='#26BE0A' />
         </div>
         <button
           className='openModal w-full'

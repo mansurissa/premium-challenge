@@ -15,20 +15,21 @@ const CarCard = ({
         <img src={image} alt='' className='w-full' />
       </div>
       <div className='w-full p-2'>
-        <h2>
+        <h2 className='c-black'>
           {title}
           <span style={{ fontSize: '18px', fontWeight: 'normal' }}>{desc}</span>
         </h2>
         <div className='flex'>
           <div>
             <p>
-              Tipo:<span className='detailText'>{tipo}</span>
+              Tipo:<span className='detailText c-black bold'>{tipo}</span>
             </p>
             <p>
-              Potenza:<span className='detailText'>{potenza}</span>
+              Potenza:<span className='detailText c-black bold'>{potenza}</span>
             </p>
             <p>
-              Cilindrata:<span className='detailText'>{cilindrata} cm3</span>
+              Cilindrata:
+              <span className='detailText c-black bold'>{cilindrata} cm3</span>
             </p>
           </div>
           <button
@@ -68,14 +69,60 @@ const CarCard = ({
                   className='w-full '
                   style={{
                     background: '#eeee',
-                    height: '6px',
-                    marginTop: '10px'
+                    height: '8px',
+                    marginTop: '10px',
+                    position: 'relative'
                   }}
                 >
                   <div
                     style={{
+                      position: 'absolute',
+                      display: 'flex',
+                      justifyContent: 'space-around',
+                      width: '100%'
+                    }}
+                  >
+                    <div
+                      style={{
+                        background: '#fff',
+                        height: '8px',
+                        width: '4px'
+                      }}
+                    ></div>
+                    <div
+                      style={{
+                        background: '#fff',
+                        height: '8px',
+                        width: '4px'
+                      }}
+                    ></div>
+                    <div
+                      style={{
+                        background: '#fff',
+                        height: '8px',
+                        width: '4px'
+                      }}
+                    ></div>
+
+                    <div
+                      style={{
+                        background: '#fff',
+                        height: '8px',
+                        width: '4px'
+                      }}
+                    ></div>
+                    <div
+                      style={{
+                        background: '#fff',
+                        height: '8px',
+                        width: '4px'
+                      }}
+                    ></div>
+                  </div>
+                  <div
+                    style={{
                       background: item.color,
-                      height: '6px',
+                      height: '8px',
                       width: item.number
                     }}
                   ></div>

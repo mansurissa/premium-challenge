@@ -1,8 +1,10 @@
+import Icon from '../assets/icons/equalizer.png';
+
 const BottomNav = () => {
   return (
-    <div className='bottomNav'>
-      <i class='fa fa-filter' aria-hidden='true'></i>
-      <p style={{ marginLeft: '60px' }}>Filtra auto</p>
+    <div className='bottomNav text-center'>
+      <img src={Icon} alt='' />
+      <h2 className='w-full'>Filtra auto</h2>
     </div>
   );
 };

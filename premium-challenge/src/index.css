@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -5,11 +7,10 @@
 }
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Work Sans', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color: #858585;
 }
 
 code {
@@ -23,10 +24,15 @@ code {
   align-items: center;
 }
 a {
-  color: orangered;
+  color: #ff5d27;
   font-weight: 500;
 }
-
+.c-black {
+  color: #333333;
+}
+.bold {
+  font-weight: bolder;
+}
 .navbar {
   height: 60px;
   position: fixed;
@@ -46,7 +52,7 @@ a {
   margin-top: 1rem;
 }
 .openModal {
-  color: orangered;
+  color: #ff5d27;
   background: white;
   font-weight: bold;
   padding: 0.7rem 0;
@@ -67,7 +73,7 @@ a {
 .icons::before {
   font-family: FontAwesome;
   content: '\f02b';
-  color: orangered;
+  color: #ff5d27;
   position: absolute;
   left: 35%;
   top: 0;
@@ -78,7 +84,7 @@ a {
 .icons::after {
   font-family: FontAwesome;
   content: '\f02b';
-  color: orangered;
+  color: #ff5d27;
   top: 11%;
   right: 35%;
   font-size: 1.4rem;
@@ -108,8 +114,8 @@ a {
 }
 .sign {
   color: rgb(236, 236, 236);
-  font-size: small;
-  margin-bottom: 1rem;
+  font-size: 16px;
+  margin-top: 16px;
 }
 .left {
   width: 100%;
@@ -141,7 +147,7 @@ a {
   padding-left: 0.7rem;
 }
 .more {
-  background: orangered;
+  background: #ff5d27;
   border: none;
   color: white;
   font-size: 1.1rem;
@@ -196,6 +202,7 @@ select {
   width: 100%;
   background: white;
   height: 100vh;
+  font-family: Work Sans;
 }
 .hidden {
   display: none;
@@ -203,7 +210,7 @@ select {
 .closeModal {
   border: none;
   border-radius: 200px;
-  background: orangered;
+  background: #ff5d27;
   padding: 0.7rem 1rem;
   font-size: 1.4rem;
   color: white;
@@ -246,7 +253,7 @@ select {
   }
   .bottomNav {
     display: flex;
-    background: orangered;
+    background: #ff5d27;
     color: white;
     font-size: 1.2rem;
     position: fixed;
